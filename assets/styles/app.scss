@@ -1,0 +1,118 @@
+.body {
+  margin: 0;
+  font-family: 'Inter';
+}
+.container {
+  text-align: center;
+}
+.top-section {
+  margin-top: 5rem;
+  &--sub-title {
+    font-size: 15px;
+    color: #1E7B6F;
+    letter-spacing: 16%;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &--title {
+    color: #212529;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 2rem 0;
+  }
+  &--desc {
+    width: 865px;
+    margin: 0 auto;
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+.types {
+  justify-content: center;
+  margin-top: 4rem;
+  .col {
+    background-color: #0C1E2B;
+  }
+  .col:hover {
+    background-color: #2A6897;
+    cursor: pointer;
+  }
+  .col {
+    max-width: 151px;
+    height: 151px;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    gap: 4;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 15px;
+  }
+}
+.steps-container {
+  .steps {
+    margin: 4rem 1rem;
+  }
+}
+.carousel-item {
+  width: 700px !important;
+  margin: 0 auto;
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.bottom-information-section {
+  background: #F5F7F9;
+  padding: 7rem 0;
+
+}
+
+.bottom-section {
+  &--sub-title {
+    font-size: 15px;
+    color: #1E7B6F;
+    letter-spacing: 16%;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &--title {
+    color: #212529;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .phone-button {
+    background-color: #1E7B6F;
+    color: #fff;
+    margin: 0 5px;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  .consultation-button {
+    background-color: transparent;
+    border: 1px solid #1E7B6F;
+    margin: 0 5px;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+}
