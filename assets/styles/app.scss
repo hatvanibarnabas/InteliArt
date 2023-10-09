@@ -1,3 +1,4 @@
+@import "bootstrap";
 .body {
   margin: 0;
   font-family: 'Inter';
@@ -101,8 +102,7 @@
     background-color: #1E7B6F;
     color: #fff;
     margin: 0 5px;
-    align-items: center;
-    display: flex;
+    display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 3px;
   }
@@ -110,9 +110,13 @@
     background-color: transparent;
     border: 1px solid #1E7B6F;
     margin: 0 5px;
-    align-items: center;
-    display: flex;
+    display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 3px;
+  }
+}
+.bottom-buttons {
+  .col-6 {
+    display: contents;
   }
 }
